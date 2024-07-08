@@ -100,9 +100,17 @@ analytics:
   google:
     tracking_id          : "UA-1234567-8"
     anonymize_ip         :  false 
-    
+ #Author profile   
 
 # Site Author
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
 author:
   name             : "Bathsheba Darko"
   avatar           :  "/assets/she.jpeg"
