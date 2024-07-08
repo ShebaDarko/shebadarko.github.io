@@ -2,10 +2,8 @@
 main:
   - title: " Projects"
     url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
   - title: "CV"
     url: /collection-archive/
-  - title: "Publications, Talks"
+  - title: "Publications & Talks"
     url: https://google.com
     target: _blank
