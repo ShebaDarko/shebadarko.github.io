@@ -35,7 +35,7 @@ description              : "A portfolio showcasing my data science projects and 
 url                      : "https://shebadarko.github.io/portfolio"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ShebaDarko/Test-GitHub"
-teaser                   : "/assets/500x300.png"
+teaser                   : "/assets/3953273590_704e3899d5_m.jpg"
 logo                     : "/assets/akua.png"
 masthead_title           : "Sheba Darko"
 breadcrumbs              :  true
