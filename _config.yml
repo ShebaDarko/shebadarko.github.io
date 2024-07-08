@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "Bathsheba Darko"
   avatar           :  "/assets/she.jpeg"
-  bio              : "**MSc Compuatational and Applied Mathematics**, **Data Scientist**."
+  bio              : "**MSc Compuatational and Applied Mathematics, Data Scientist**."
   location         : "Erlangen, Germany"
-  email            : bathsheba{dot}darko{at}fau{dot}de
+  email            : "bathsheba{dot}darko{at}fau{dot}de"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
