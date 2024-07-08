@@ -14,6 +14,17 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin  : "air" 
 
+head_scripts:
+  - https://code.jquery.com/jquery-3.3.1.min.js
+  - /assets/js/your-custom-head-script.js
+footer_scripts:
+  - /assets/js/your-custom-footer-script.js
+after_footer_scripts:
+  - /assets/js/custom-script-loads-after-footer.js
+
+
+
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Bathsheba Darko"
