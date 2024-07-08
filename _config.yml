@@ -25,7 +25,7 @@ url                      : "https://shebadarko.github.io/portfolio"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ShebaDarko/Test-GitHub"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/sheba.jpeg"
+logo                     : "/assets/sheba.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
