@@ -88,7 +88,7 @@ og_image                 : "/assets/shelo-logo.png"
 social:
   type                   : "Sheba"
   name                   : #If the user or organization name differs from the site's name
-  links:                 : "in/bathsheba-darko-480b9198"
+  links:                 : # "in/bathsheba-darko-480b9198"
     
 # Analytics
 analytics:
