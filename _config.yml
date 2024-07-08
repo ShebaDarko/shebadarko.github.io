@@ -137,7 +137,7 @@ author:
 # Site Footer
 footer:
   links:
-      label: "GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://shebadarko.github.io/"
     - label: "Twitter"
