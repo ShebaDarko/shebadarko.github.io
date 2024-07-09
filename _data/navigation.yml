@@ -1,6 +1,11 @@
 # main links
 main:
-   - title: "About"
-     url: https://mmistakes.github.io/minimal-mistakes/about//
- 
-target: _blank
+  - title: " Projects"
+    url: https://shebadarko.github.io/portfolio
+    #url: /docs/quick-start-guide/
+  - title: "CV"
+    url: /collection-archive/
+    #url: /shebadarko.github.io/aboutme.md
+  - title: "Publications & Talks"
+    url: https://google.com
+    target: _blank
