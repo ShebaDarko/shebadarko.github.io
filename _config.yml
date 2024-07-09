@@ -378,6 +378,11 @@ defaults:
       author_profile: false
       share: true
 
-
-
-
+#############################################
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: "My Academic Portfolio"
