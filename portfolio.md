@@ -3,8 +3,6 @@ layout: default
 title: My Academic Portfolio
 ---
 
-
-
 # My Academic Portfolio
 
 ## Publications
