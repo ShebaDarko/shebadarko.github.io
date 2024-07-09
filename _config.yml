@@ -14,6 +14,7 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin  : "air" 
 
+# Head Scripts
 head_scripts:
   - https://code.jquery.com/jquery-3.3.1.min.js
   - /assets/js/your-custom-head-script.js
@@ -23,11 +24,8 @@ after_footer_scripts:
   - /assets/js/custom-script-loads-after-footer.js
 
 
-
-
 # Site Settings
 locale                   : "en-US"
-
 title                    : "Bathsheba Darko"
 title_separator          : "|"
 subtitle                 : "Hi , my name is Sheba"
@@ -43,29 +41,33 @@ breadcrumbs              :  true
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Site Title"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "site tagline that appears below site title in masthead"
+name                     : "PORTFOLIO"
+description              : " An amazing website."
+url                      : "https://shebadarko.github.io/portfolio"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+repository               : "ShebaDarko/Test-GitHub"
+teaser                   : "/assets//500x300.png"
+logo                     : "/assets/akua.png"
+masthead_title           :  "Sheba Darko"
+breadcrumbs              :  true
+words_per_minute         : 250
 
-words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+# Code block buttons
+enable_copy_code_button  : true
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
+
+# Comments
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook:              : # https://developers.facebook.com/docs/plugins/comments
+
+  
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -423,6 +425,4 @@ defaults:
       share: true
 
 
-    # Code block buttons
-    enable_copy_code_button: true
 
