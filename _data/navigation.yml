@@ -1,9 +1,11 @@
 # main links
 main:
   - title: " Projects"
-    url: /docs/quick-start-guide/
+    url: https://shebadarko.github.io/portfolio
+    #url: /docs/quick-start-guide/
   - title: "CV"
-    url: /collection-archive/
+    #url: /collection-archive/
+    url: /aboutme.md/
   - title: "Publications & Talks"
     url: https://google.com
     target: _blank
