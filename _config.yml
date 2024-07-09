@@ -433,3 +433,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+
+    # Code block buttons
+    enable_copy_code_button: true
+
