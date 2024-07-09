@@ -27,7 +27,7 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "en-US"
-<<<<<<< HEAD
+
 title                    : "Bathsheba Darko"
 title_separator          : "|"
 subtitle                 : "Hi , my name is Sheba"
@@ -40,7 +40,6 @@ teaser                   : "/assets/3953273590_704e3899d5_m.jpg"
 logo                     : "/assets/akua.png"
 masthead_title           : "Sheba Darko"
 breadcrumbs              :  true
-=======
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Site Title"
 title_separator          : "-"
@@ -54,7 +53,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
->>>>>>> upstream/master
+
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -131,11 +130,11 @@ social:
 
 # Analytics
 analytics:
-<<<<<<< HEAD
+
   provider               : "google-gtag"
-=======
+
   provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
->>>>>>> upstream/master
+
   google:
     tracking_id          : "UA-1234567-8"
     anonymize_ip         :  false 
@@ -208,8 +207,6 @@ footer:
       label:  "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Bathsheba-Akua-Darko"
-
-
 
 # Reading Files
 include:
