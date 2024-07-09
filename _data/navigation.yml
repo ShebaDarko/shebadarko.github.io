@@ -8,7 +8,7 @@ main:
     #url: /shebadarko.github.io/aboutme.md
   - title: "Publications & Talks"
     url: https://google.com
-    target: _blank
+    #target: _blank
 
     # example navigation
 foo:
@@ -124,10 +124,5 @@ sidebar-sample:
         url: /
       - title: "Child Page C5"
         url: /
-  - title: "Parent Page D"
-    children:
-      - title: "Child Page D1"
-        url: /
-      - title: "Child Page D2"
-        url: /
 
+target: _blank
