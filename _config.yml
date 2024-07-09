@@ -385,4 +385,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title: "My Academic Portfolio"
