@@ -2,3 +2,35 @@
 layout: home
 author_profile: true
 ---
+--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+  
+  <section>
+    <h2>Recent Projects</h2>
+    <ul>
+      {% for project in site.projects limit: 5 %}
+        <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae magna et odio blandit tincidunt.</p>
+  </section>
+
+  <footer>
+    <p>Contact me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  </footer>
+</body>
+</html>
