@@ -374,3 +374,21 @@ defaults:
     values:
       layout: "default"
       title: "My Academic Portfolio"
+#####################
+# Include author profile if needed
+author_profile: true
+
+# Navigation links or menu items
+header_pages:
+  - index.html
+  - about.html
+  - contact.html
+  # Add more pages as needed
+
+# Additional configurations
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+    # Add more collections as needed
+
