@@ -1,0 +1,38 @@
+.recent-posts {
+  margin-top: 2rem;
+}
+
+.recent-posts h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.recent-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 1.5rem;
+}
+
+.recent-posts li a {
+  font-size: 1.25rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.recent-posts li a:hover {
+  text-decoration: underline;
+}
+
+.recent-posts li span {
+  display: block;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.recent-posts li p {
+  margin: 0.5rem 0 0;
+  color: #333;
+}
