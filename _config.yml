@@ -2,7 +2,7 @@ title: Bathsheba Darko
 description: A portfolio showcasing my data science projects and experience.
 url: "https://shebadarko.github.io"
 #theme: minimal-mistakes-jekyll
-#remote_theme  : "mmistakes/minimal-mistakes"
+remote_theme  : "mmistakes/minimal-mistakes"
 
 # Build settings
 markdown: kramdown
