@@ -20,6 +20,4 @@ defaults:
     values:
       layout: "post"
 
-# Feed settings
-feed:
-  path: feed.xml
+
