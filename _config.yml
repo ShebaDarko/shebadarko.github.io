@@ -429,3 +429,12 @@ collections:
     permalink: /docs/:path/
     # Add more collections as needed
 
+# Navigation links or additional custom data
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  # Add more navigation links as needed
+
+# Other configurations spec
