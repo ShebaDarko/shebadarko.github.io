@@ -390,7 +390,7 @@ compress_html:
 
 #############################################
 defaults:
-  - scope:
+  -scope:
       path: ""
       type: "pages"
     values:
