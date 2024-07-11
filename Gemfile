@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -14,11 +16,11 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+#gem "jekyll"
+#gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
-#gem "jekyll-paginate"
+# gem "jekyll-paginate"
 #   gem "jekyll-sitemap"
 #   gem "jekyll-gist"
 #   gem "jekyll-feed"
@@ -26,6 +28,7 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
-group :jekyll_plugins do
-end
+
+#group :jekyll_plugins do
+#end
 
