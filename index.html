@@ -20,55 +20,57 @@ author_profile: true
 <!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<style>
-  .underline {
-    position: relative;
-    display: inline-block;
-    color: #003366; /* Midnight blue color */
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  .underline::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjust this value for spacing */
-    width: 100%; /* Full width underline */
-    height: 1px; /* Line thickness */
-    background-color: #003366; /* Midnight blue color for underline */
-    z-index: -1; /* Ensure the underline is behind text */
-  }
-  .recent-posts-title::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjust this value for spacing */
-    width: 100%; /* Full width underline */
-    height: 1px; /* Line thickness */
-    background-color: #cccccc; /* Light gray background color */
-    z-index: -1; /* Ensure the underline is behind text */
-  }
-  .golden-yellow-text {
-    color: #FFD700; /* Golden yellow color code */
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 0.8em; /* Smaller font size */
-  }
-  .golden-yellow-text i {
-    margin-right: 5px;
-    font-size: 0.7em; /* Smaller font size for the icon */
-  }
-  .nowrap-text {
-  display: inline-block;
-  max-width: 850px;
-  white-space: pre-wrap; /* Preserve whitespace and wrap lines */
-  overflow-wrap: break-word; /* Breaks words to prevent overflow */
-}
-</style>
+<div style="display: none;">
+  <style>
+    .underline {
+      position: relative;
+      display: inline-block;
+      color: #003366; /* Midnight blue color */
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .underline::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px; /* Adjust this value for spacing */
+      width: 100%; /* Full width underline */
+      height: 1px; /* Line thickness */
+      background-color: #003366; /* Midnight blue color for underline */
+      z-index: -1; /* Ensure the underline is behind text */
+    }
+    .recent-posts-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px; /* Adjust this value for spacing */
+      width: 100%; /* Full width underline */
+      height: 1px; /* Line thickness */
+      background-color: #cccccc; /* Light gray background color */
+      z-index: -1; /* Ensure the underline is behind text */
+    }
+    .golden-yellow-text {
+      color: #FFD700; /* Golden yellow color code */
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 0.8em; /* Smaller font size */
+    }
+    .golden-yellow-text i {
+      margin-right: 5px;
+      font-size: 0.7em; /* Smaller font size for the icon */
+    }
+    .nowrap-text {
+      display: inline-block; /* Set maximum width */
+      max-width: 850px;
+      white-space: pre-wrap; /* Prevent text wrapping */
+      overflow-wrap: break-word; /* Ensure it respects width but doesn't take full block */
+    }
 
 
+  </style>
+</div>
 
 <div class="about">
   <h2 class="underline">About Me</h2>
