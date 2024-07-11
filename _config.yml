@@ -18,7 +18,7 @@ minimal_mistakes_skin  : "air"
 locale                   : "en-US"
 title                    : "Bathsheba Darko"
 title_separator          : "|"
-subtitle                 : "Hi , my name is Sheba"
+#subtitle                 : "Hi , my name is "
 name                     : "Bathsheba Darko"
 description              : "A portfolio showcasing my data science projects and experience."
 url                      : "https://shebadarko.github.io/portfolio"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ShebaDarko/Test-GitHub"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/akua.png"
-masthead_title           : "Sheba Darko"
+masthead_title           : "Bathsheba Darko"
 breadcrumbs              :  true
 words_per_minute         : 250
 enable_copy_code_button: true
@@ -123,7 +123,7 @@ defaults:
 author:
   name: "Bathsheba Darko"
   avatar: "/assets/she.jpeg"
-  bio: "**MSc Computational and Applied Mathematics, Data Scientist**."
+  bio: "**MSc Computational and Applied Mathematics,Data Scientist**."
   location: "Erlangen, Germany"
   email: "bathsheba{dot}darko{at}fau{.}de"
   links:
