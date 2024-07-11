@@ -40,6 +40,6 @@ source "https://rubygems.org"
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 
 group :jekyll_plugins do
-gem "minimal-mistakes-jekyll"
+  gem "minimal-mistakes-jekyll"
 end
 
