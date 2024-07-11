@@ -1,0 +1,5 @@
+.page__meta-sep::before {
+  content: "\2022";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
