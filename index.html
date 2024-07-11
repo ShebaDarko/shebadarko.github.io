@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 ---
-!-- Include Font Awesome for icons -->
+<!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <style>
@@ -27,6 +27,25 @@ author_profile: true
     margin-right: 5px;
     font-size: 0.8em; /* Smaller font size for the icon */
   }
+
+  /* Underline for Recent Posts */
+  .recent-posts-title {
+    position: relative;
+    display: inline-block;
+    color: #040273; /* Dark blue color for Recent Posts */
+    font-weight: bold;
+  }
+
+  .recent-posts-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust this value for spacing */
+    width: 100%; /* Make the underline longer */
+    height: 2px; /* Line thickness */
+    background-color: #f0f0f0; /* Light gray color */
+    z-index: -1; /* Ensure the underline is behind text */
+  }
 </style>
 
 <header>
@@ -35,7 +54,7 @@ author_profile: true
 
 <div class="home">
   <div class="posts">
-    <h2>Recent Posts</h2>
+    <h2 class="underline recent-posts-title">Recent Posts</h2>
     <ul>
       {% for post in site.posts limit: 5 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
