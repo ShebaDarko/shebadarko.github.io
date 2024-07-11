@@ -389,13 +389,7 @@ compress_html:
 
 
 #############################################
-defaults:
-  -scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      title: "Academic Portfolio"
+#Logging at level: debug github-pages 231 | Error: (/github/workspace/./_config.yml): did not find expected key while parsing a block mapping at line 393 column 3
 
       defaults:
   -scope:
