@@ -397,6 +397,13 @@ defaults:
       type: "about"
     values:
       layout: "about"
+      defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 
 # Include author profile if needed
 author_profile: true
