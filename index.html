@@ -24,7 +24,6 @@ author_profile: true
     background-color: #003366; /* Midnight blue color for underline */
     z-index: -1; /* Ensure the underline is behind text */
   }
-
   .recent-posts-title::after {
     content: '';
     position: absolute;
@@ -32,11 +31,9 @@ author_profile: true
     bottom: -2px; /* Adjust this value for spacing */
     width: 700%; /* Longer underline for Recent Posts */
     height: 1px; /* Line thickness */
-    background-color: #f5f5f5; /* Light gray background color */
+    background-color: #cccccc; /* Light gray background color */
     z-index: -1; /* Ensure the underline is behind text */
-    
   }
-
   .golden-yellow-text {
     color: #FFD700; /* Golden yellow color code */
     display: flex;
@@ -54,7 +51,6 @@ author_profile: true
 <header>
   <h1>Welcome to My Homepage</h1>
 </header>
-
 <div class="home">
   <div class="posts">
     <h2 class="underline recent-posts-title">Recent Posts</h2>
@@ -64,7 +60,6 @@ author_profile: true
       {% endfor %}
     </ul>
   </div>
-
   <div class="about">
     <h2 class="underline">About Me</h2>
     <p>I am a passionate Master's student in Computational and Applied Mathematics at FAU Erlangen-Nürnberg.</p>
