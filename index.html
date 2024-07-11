@@ -42,18 +42,10 @@ author_profile: true
     position: absolute;
     left: 0;
     bottom: -2px; /* Adjust this value for spacing */
-    width: 200%; /* Make the underline longer for Recent Posts */
+    width: 150%; /* Make the underline longer */
     height: 1px; /* Line thickness */
-    background-color: #f5f5f5; /* Light gray background color */
+    background-color: #f0f0f0; /* Light gray color */
     z-index: -1; /* Ensure the underline is behind text */
-  }
-
-  /* Underline for all other sections */
-  .underline:not(.recent-posts-title)::after {
-    content: '';
-    display: block;
-    border-bottom: 1px solid #003366; /* Midnight blue color */
-    margin-top: -5px; /* Adjust this value for spacing */
   }
 </style>
 
