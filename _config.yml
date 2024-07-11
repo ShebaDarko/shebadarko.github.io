@@ -423,7 +423,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title: "My Academic Portfolio"
+      title: "Academic Portfolio"
   - scope:
       path: ""
       type: "recent"
