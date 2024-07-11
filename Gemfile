@@ -5,12 +5,12 @@ source "https://rubygems.org"
 ######################################
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+#source "https://rubygems.org"
 
-gemspec
+#gemspec
 
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "jekyll-github-metadata", :github => "jekyll/github-metadata"
+#gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
+#gem "jekyll-github-metadata", :github => "jekyll/github-metadata"
 
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -39,6 +39,7 @@ gem "jekyll-github-metadata", :github => "jekyll/github-metadata"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 
-#group :jekyll_plugins do
-#end
+group :jekyll_plugins do
+gem "minimal-mistakes-jekyll"
+end
 
