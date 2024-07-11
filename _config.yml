@@ -396,6 +396,21 @@ defaults:
     values:
       layout: "default"
       title: "My Academic Portfolio"
+
+      defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "about"
+    values:
+      layout: "about"
+
 #####################
 # Include author profile if needed
 author_profile: true
