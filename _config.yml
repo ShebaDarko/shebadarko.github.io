@@ -428,9 +428,4 @@ defaults:
     values:
       layout: "default"
       title: "Academic Portfolio"
-- scope:
-      path: ""
-      type: "recent"
-    values:
-      layout: "post"
       title: "Recent Posts"
