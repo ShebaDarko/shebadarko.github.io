@@ -2,17 +2,17 @@
 layout: home
 author_profile: true
 ---
-<!-- Include Font Awesome for icons -->
+!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <style>
   .underline {
-    border-bottom: 1px solid #040273; /* Deep blue color code */
+    border-bottom: 1px solid #003366; /* Midnight blue color */
     margin-bottom: 10px;
     padding-bottom: 5px;
   }
-  .deep-blue-title {
-    color: #040273; /* Deep blue color code */
+  .bold-blue-title {
+    color: #003366; /* Midnight blue color */
     font-weight: bold;
   }
   .golden-yellow-text {
@@ -44,16 +44,16 @@ author_profile: true
   </div>
 
   <div class="about">
-    <h2 class="underline"><span class="deep-blue-title">About Me</span></h2>
+    <h2 class="underline"><span class="bold-blue-title">About Me</span></h2>
     <p>I am a passionate Master's student in Computational and Applied Mathematics at FAU Erlangen-Nürnberg.</p>
     
-    <h2 class="underline"><span class="deep-blue-title">Women in Data Science Conference</span></h2>
+    <h2 class="underline"><span class="bold-blue-title">Women in Data Science Conference</span></h2>
     <p class="golden-yellow-text">
       <i class="fas fa-calendar-alt"></i> June 20
     </p>
     <p>As an ambassador, I had the honor of hosting the Women in Data Science conference for the second consecutive year.</p>
     
-    <h2 class="underline"><span class="deep-blue-title">Master's Thesis</span></h2>
+    <h2 class="underline"><span class="bold-blue-title">Master's Thesis</span></h2>
     <p class="golden-yellow-text">
       <i class="fas fa-calendar-alt"></i> July
     </p>
@@ -68,7 +68,7 @@ author_profile: true
   </div>
 
   <div class="collections">
-    <h2 class="underline"><span class="deep-blue-title">Posts by Collection</span></h2>
+    <h2 class="underline"><span class="bold-blue-title">Posts by Collection</span></h2>
     <ul>
       {% for collection in site.collections %}
       <li><a href="{{ collection.relative_directory }}">{{ collection.label }}</a></li>
@@ -77,7 +77,7 @@ author_profile: true
   </div>
 
   <div class="docs">
-    <h2 class="underline"><span class="deep-blue-title">Documentation</span></h2>
+    <h2 class="underline"><span class="bold-blue-title">Documentation</span></h2>
     <ul>
       <li><a href="/docs/quick-start-guide/">Quick-Start Guide</a></li>
       <li><a href="/docs/how-to-customize/">How to Customize</a></li>
