@@ -243,8 +243,25 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-  # Defaults
+  # Defaults : real time
+  defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      
+# Defaults : all post
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+
+defaults: 
   # _posts
   - scope:
       path: ""
