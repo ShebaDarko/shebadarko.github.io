@@ -379,31 +379,25 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# HTML Compression
-# - https://jch.penibelst.de/
+# HTML Compression settings
 compress_html:
   clippings: all
   ignore:
-    envs: development
+    - envs: development
 
-
-
-#############################################
-#Logging at level: debug github-pages 231 | Error: (/github/workspace/./_config.yml): did not find expected key while parsing a block mapping at line 393 column 3
-
-      defaults:
-  -scope:
+# Defaults configuration
+defaults:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -scope:
+  - scope:
       path: ""
       type: "about"
     values:
       layout: "about"
 
-#####################
 # Include author profile if needed
 author_profile: true
 
@@ -414,14 +408,13 @@ header_pages:
   - contact.html
   # Add more pages as needed
 
-# Additional configurations
+# Additional configurations for collections, navigation links, etc.
 collections:
   docs:
     output: true
     permalink: /docs/:path/
     # Add more collections as needed
 
-# Navigation links or additional custom data
 nav_links:
   - title: Home
     url: /
@@ -429,4 +422,3 @@ nav_links:
     url: /about
   # Add more navigation links as needed
 
-# Other configurations spec
