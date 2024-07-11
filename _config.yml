@@ -410,7 +410,6 @@ compress_html:
 
 
 
-#############################################
 defaults:
   - scope:
       path: ""
@@ -418,3 +417,9 @@ defaults:
     values:
       layout: "default"
       title: "My Academic Portfolio"
+  - scope:
+      path: ""
+      type: "recent"
+    values:
+      layout: "post"
+      title: "Recent Posts"
