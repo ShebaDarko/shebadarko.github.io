@@ -337,6 +337,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -345,6 +347,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
 
 
 # Archives
