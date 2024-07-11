@@ -401,31 +401,20 @@ defaults:
 # Include author profile if needed
 author_profile: true
 
-# Navigation links or menu items
-header_pages:
-  - index.html
-  - about.html
-  - contact.html
-  # Add more pages as needed
+ HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
-# Additional configurations for collections, navigation links, etc.
-collections:
-  docs:
-    output: true
-    permalink: /docs/:path/
-    # Add more collections as needed
 
-nav_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  # Add more navigation links as needed
+
+#############################################
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-      title: "Academic Portfolio"
-      title: "Recent Posts"
+      title: "My Academic Portfolio"
