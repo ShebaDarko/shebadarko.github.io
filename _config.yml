@@ -29,6 +29,8 @@ logo                     : "/assets/akua.png"
 masthead_title           : "Sheba Darko"
 breadcrumbs              :  true
 words_per_minute         : 250
+enable_copy_code_button: true
+
 
 #Comments
 comments:
