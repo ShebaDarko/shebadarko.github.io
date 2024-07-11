@@ -1,1 +1,45 @@
+.archive__subtitle {
+  position: relative; /* Position relative to contain the pseudo-element */
+  display: inline-block;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.archive__subtitle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust to control the thickness of the underline */
+  width: 100%;
+  height: 1px; /* Adjust to control the thickness of the underline */
+  background-color: black; /* Color of the underline */
+}
+
+.recent-posts {
+  list-style: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default list indentation */
+}
+
+.recent-posts li {
+  margin-bottom: 8px; /* Adjust spacing between list items */
+}
+
+.recent-posts li a {
+  text-decoration: none; /* Remove underline */
+  position: relative; /* Position relative to contain the pseudo-element */
+}
+
+.recent-posts li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust to align with the underline */
+  width: 100%;
+  height: 1px; /* Adjust to control the thickness of the underline */
+  background-color: black; /* Color of the underline */
+  transition: width 0.3s ease; /* Optional: Add a transition for smooth effect */
+}
+
+.recent-posts li a:hover::after {
+  width: 0; /* Adjust to control the width of the underline on hover */
+}
 
