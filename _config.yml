@@ -411,12 +411,6 @@ defaults:
     values:
       layout: "about"
 
- scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "posts"
-
 #####################
 # Include author profile if needed
 author_profile: true
