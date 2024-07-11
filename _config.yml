@@ -395,17 +395,15 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title: "My Academic Portfolio"
+      title: "Academic Portfolio"
 
       defaults:
-  -
-    scope:
+  -scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
+  -scope:
       path: ""
       type: "about"
     values:
