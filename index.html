@@ -61,12 +61,14 @@ author_profile: true
     font-size: 0.7em; /* Smaller font size for the icon */
   }
   .nowrap-text {
-    white-space: nowrap; /* Prevent text wrapping */
+    max-width: 850px; /* Set maximum width */
     overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Optionally use ellipsis if necessary */
     display: block;
   }
 </style>
+
 
 <div class="about">
   <h2 class="underline">About Me</h2>
@@ -114,3 +116,6 @@ author_profile: true
     <!-- Add more links as needed -->
   </ul>
 </div>
+
+
+
