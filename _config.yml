@@ -421,4 +421,10 @@ nav_links:
   - title: About
     url: /about
   # Add more navigation links as needed
-
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: "Academic Portfolio"
