@@ -1,0 +1,52 @@
+---
+layout: pots
+author_profile: true
+---
+
+<header>
+  <h1>Welcome to My Homepage</h1>
+</header>
+
+<div class="home">
+  <div class="posts">
+    <h2>Recent Posts</h2>
+    <ul>
+      {% for post in site.posts limit: 5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Master's student in Computational and Applied Mathematics at FAU Erlangen-Nürnberg.</p>
+    <h3>Women in Data Science Conference</h3>
+    <p>As an ambassador, I had the honor of hosting the Women in Data Science conference for the second consecutive year.</p>
+    <h3>Master's Thesis</h3>
+    <p>Performed intrusion detection on cybersecurity learning in intrusion detection as part of my Master's thesis project.</p>
+    <p>Location: Buffalo, NY</p>
+    <ul class="social-icons">
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </div>
+
+  <div class="collections">
+    <h2>Posts by Collection</h2>
+    <ul>
+      {% for collection in site.collections %}
+      <li><a href="{{ collection.relative_directory }}">{{ collection.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="docs">
+    <h2>Documentation</h2>
+    <ul>
+      <li><a href="/docs/quick-start-guide/">Quick-Start Guide</a></li>
+      <li><a href="/docs/how-to-customize/">How to Customize</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </div>
+</div>
