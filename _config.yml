@@ -416,16 +416,13 @@ compress_html:
     envs: development
 
 
-
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-      title: "Academic Portfolio"
-
-
+      title: "Bathsheba Portfolio"
   - scope:
       path: ""
       type: "recent"
