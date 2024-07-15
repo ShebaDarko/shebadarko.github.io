@@ -1,30 +1,91 @@
 ---
 layout: default
-title: Master's Thesis
 ---
-<div class="page-content">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <article class="post">
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-meta">
-              <i class="far fa-calendar-alt"></i> July 2024
-            </p>
-          </header>
 
-          <div class="post-content">
-            <p>
-              Master's Thesis: I submitted my Master's Thesis on Machine Learning for Intrusion Detection in cybersecurity at Siemens Healthineers as part of my graduate studies under Prof. Dr. Daniel Tenbrinck, Department of Mathematics, FAU.
-            </p>
-            <p>
-              For more details, you can view the full thesis <a href="link-to-your-thesis.pdf" target="_blank">here</a>.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
+<div class="about">
+   <h2 class="">About Me</h2>
+  <p> Recently completed my Master's in Computational and Applied Mathematics at FAU Erlangen-Nürnberg. Passionate about leveraging data science to drive innovation</p>
 </div>
 
+<div class="masters-thesis">
+  <h2>
+    <a href="your-link-here" target="_blank" style="color:  #003366; text-decoration: underline;">Master's Thesis</a>
+  </h2>
+  <p class="golden-yellow-text">
+    <i class="fas fa-calendar-alt"></i> July
+  </p>
+  <p>Master's Thesis: I submitted my Master's Thesis on Machine Learning for Intrusion Detection in cybersecurity at Siemens Healthineers as part of my graduate studies under Prof. Dr. Daniel Tenbrinck, Department of Mathematics, FAU.</p>
+</div>
+
+<!-- Other sections like Women in Data Science, Bachelor Thesis, etc. -->
+
+<section id="recent-posts" class="recent-posts">
+  <h2 class="underline recent-posts-title">Recent Posts</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+        <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- Include Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+  .underline {
+    position: relative;
+    display: inline-block;
+    color: #003366; /* Midnight blue color */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px; /* Adjust this value for spacing */
+    width: 100%; /* Full width underline */
+    height: 1px; /* Line thickness */
+    background-color: #003366; /* Midnight blue color for underline */
+    z-index: -1; /* Ensure the underline is behind text */
+  }
+  .recent-posts-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px; /* Adjust this value for spacing */
+    width: 700%; /* Longer underline for Recent Posts */
+    height: 1px; /* Line thickness */
+    background-color: #cccccc; /* Light gray background color */
+    z-index: -1; /* Ensure the underline is behind text */
+  }
+  .golden-yellow-text {
+    color: #FFD700; /* Golden yellow color code */
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8em; /* Smaller font size */
+  }
+  .golden-yellow-text i {
+    margin-right: 5px;
+    font-size: 0.7em; /* Smaller font size for the icon */
+  }
+</style>
+<style>
+  .about p,
+  .women-in-data-science p,
+  .masters-thesis p,
+  .collections ul,
+  .docs ul {
+    max-width: 600px; /* Adjust the max-width as per your design needs */
+    margin-left: auto; /* Align text to the left */
+    margin-right: auto; /* Align text to the right */
+  }
+</style>
