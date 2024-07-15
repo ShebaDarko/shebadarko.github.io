@@ -422,7 +422,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title: "Bathsheba Portfolio"
+      title: "Hi, I'm Bathsheba—Sheba for short."
   - scope:
       path: ""
       type: "recent"
