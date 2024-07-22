@@ -137,7 +137,7 @@ author:
       #icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/bathsheba-darko-480b9198"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
