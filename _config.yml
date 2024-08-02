@@ -414,7 +414,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      title: "Hi, I'm Bathsheba—Sheba for short."
+      title: "Hi, I'm Bathsheba—Sheba for short 😃."
   - scope:
       path: ""
       type: "recent"
