@@ -127,9 +127,8 @@ author:
   location: "Erlangen, Germany"
   email: "bathsheba{dot}darko{at}fau{.}de"
   links:
-    - label: "Email"
+    - label: "bathsheba[dot]darko[at]fau[dot]de"
       #icon: "fas fa-fw fa-envelope-square"
-      #url: "bathsheba[dot]darko[at]fau[dot]de"
     - label: "Website"
       #icon: "fas fa-fw fa-link"
       #url: "https://your-website.com"
