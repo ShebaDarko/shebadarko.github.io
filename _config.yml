@@ -16,10 +16,10 @@ minimal_mistakes_skin  : "air"
 
 # Site Settings
 locale                   : "en-US" 
-title                    : "Bathsheba Darko"
+title                    : ""
 title_separator          : "|"
 #subtitle                 : "Hi , my name is "
-name                     : ""
+name                     : "Bathsheba Darko"
 description              : "A portfolio showcasing my data science projects and experience."
 url                      : "https://shebadarko.github.io/portfolio"
 baseurl                  : # the subpath of your site, e.g. "/blog"
