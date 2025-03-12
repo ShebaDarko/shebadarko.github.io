@@ -122,7 +122,7 @@ defaults:
 
 author:
   #name: "Bathsheba Darko"
-  avatar: #"/assets/she.jpeg"
+  avatar:"/assets/me.png"
   bio: "**MSc Computational and Applied Mathematics, Data Scientist**."
   location: "Germany"
   email: #"bathsheba{dot}darko{at}fau{.}de"
